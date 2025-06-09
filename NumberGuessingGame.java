@@ -8,7 +8,7 @@ public class NumberGuessingGame {
         // 2桁の正の整数をランダムに設定
         Random rand = new Random();
         int secretNumber = rand.nextInt(90) + 10; // 10から99までの乱数
-        secretNumber = 88;
+        
         int maxAttempts = 5;
         Scanner scanner = new Scanner(System.in);
 
